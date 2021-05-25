@@ -1,0 +1,210 @@
+<?
+require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetTitle("Title");
+?><html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <title>Primemilk</title>
+    <meta name="description" content="Primemilk">
+    <meta name="keywords" content="">
+    <link rel="icon" href="../favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link rel="stylesheet" href="../css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../css/mp.css">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body class="companie">
+    <HEADER>
+        <div class="backgorund-image">
+            <img src="../images/banner.jpg" alt="">
+        </div>
+        <div class="container">
+            <div class="inner _center h_between">
+                <div class="w30 complany-logo">
+                    <img src="../images/logo/primemilk.png" alt="" title="">
+                </div>
+                <div class="w60 company-info">
+                    <h1>Primemilk</h1>
+                    <a href="https://primemilk.by/en/" class="company-site" target="_blank">www.primemilk.by</a>
+                    <ul class="company-contacts">
+                        <li>
+                            <img src="../images/icons/mail.svg" alt="">
+                            <a href="mailto:info@primemilk.by">info@primemilk.by</a>
+                        </li>
+                        <li>
+                            <img src="../images/icons/mobile-phone.svg" alt="">
+                            <a href="tel:+375151472302">+375 (15) 147-23-02</a>
+                        </li>
+                        <li>
+                            <img src="../images/icons/placeholder.svg" alt="">
+                           <span>Belarus, 231513, Schuchin, 51/2 17th September str.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <a class="place">Hall 2, Stand № F2-2</a>
+    </HEADER>
+    <MAIN>
+        <div class="section">
+            <div class="container">
+                <h2 class="section-title">
+                    About the company 
+                </h2>
+                <div class="inner _center">
+                    <div class="video-wrap w50">
+                        <div class="video">
+                            <iframe width="420"
+                                    height="315"
+                                    src="https://www.youtube.com/embed/7_nmabfwgBs?autoplay=0&controls=0" allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+                    <div class="info-wrap w50">
+                        <p>
+                            Primemilk is a producer of high quality whey-based products with a wide range of application.
+                            </p>
+                        <p>Key points:
+                            <ul>
+                                <li>full automation of production process</li>
+                                <li>visual monitoring of all the processing stages</li>
+                                <li>high-level processing of raw materials with the use of waste-free production processes in the development and production of all types of products</li>
+                                <li>production by client's request/receipe</li>
+                                <li>95% of products are exported.</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <h2 class="section-title">
+                    Key products
+                </h2>
+                <div class="inner _normal">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../images/company/company9(primemilk)/product1.jpg" alt="Fat filled whey powder with fat weight content from 20 up to 55 %">
+                        </div>
+                        <div class="product-name">
+                            <h4>Fat filled whey powder with fat weight content from 20 up to 55 %</h4>
+                        </div>
+                        <div class="prod-desc">
+                            <p>Produced from pasteurized lactic liquid whey and vegetable fats, including further heat-treating, condensation, homogenization and drying on spray drier, intended for food use.</p>
+                            <a href="https://primemilk.by/catalog/ffwp-d-food.html" target="_blank">See more...</a>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../images/company/company9(primemilk)/product2.jpg" alt="Fat filled whey powder 'INCOFAT-1' with fat weight content from 20 up to 55 %">
+                        </div>
+                        <div class="product-name">
+                            <h4>Fat filled whey powder 'INCOFAT-1' with fat weight content from 20 up to 55 %</h4>
+                        </div>
+                        <div class="prod-desc">
+                            <p>Produced from pasteurized milk liquid whey and animal fats including further heat-treating, condensation, homogenization and drying on spray drier, intended for food use.</p>
+                            <a href="https://primemilk.by/catalog/incofat-1.html" target="_blank">See more...</a>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../images/company/company9(primemilk)/product3.jpg" alt="Non-dairy creamer on vegetable basis with fat weight content from 42% up to 55 %">
+                        </div>
+                        <div class="product-name">
+                            <h4>Non-dairy creamer on vegetable basis with fat weight content from 42% up to 55 %</h4>
+                        </div>
+                        <div class="prod-desc">
+                            <p>Produced from pasteurized lactic liquid whey and vegetable (palm or coconut) oil, including further heat-treating, condensation, homogenization and drying on spray drier, intended for food use.</p>
+                            <a href="https://primemilk.by/catalog/non-dairy-creamer-on-vegetable-basis-fat-weight-content-from-42-up-to-55.html" target="_blank">See more...</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <h2 class="section-title">
+                    Primary contacts
+                </h2>
+                <div class="member-list">
+                    <div class="inner _center">
+                        <div class="member w30">
+                            <div class="member-photo"><img src="../images/company/company9(primemilk)/person2.jpg"></div>
+                            <div class="member-name"><span>Violetta Dedenko</span></div>
+                            <div class="member-contacts">
+                                <ul>
+                                    <li id="job"><a href="#">Foreign Trade Manager</a></li>
+                                    <li id="c_email"><a href="mailto:dedenko@primemilk.by">dedenko@primemilk.by</a></li>
+                                    <li id="c_phone"><a href="tel:+375445853840">+375 (44) 585-38-40</a></li>
+                                    <li id="c_wapp"><a href="https://wa.me/375445853840" target="_blank">WhatsApp</a></li>
+                                    <li id="c_wechat"><a href="weixin://dl/chat?375445853840" target="_blank">WeChat</a></li>
+                                    <li id="c_viber"><a href="viber://chat?number=%2B375445853840" target="_blank">Viber</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="member w30">
+                            <div class="member-photo"><img src="../images/company/company9(primemilk)/person1.jpg"></div>
+                            <div class="member-name"><span>Anatoliy Belyavskiy</span></div>
+                            <div class="member-contacts">
+                                <ul>
+                                    <li id="job"><a href="#">Director</a></li>
+                                    <li id="c_email"><a href="mailto:belyavskij@primemilk.by">belyavskij@primemilk.by</a></li>
+                                    <li id="c_phone"><a href="tel:+375296234114">+375 (29) 623-41-14</a></li>
+                                    <li id="c_wapp"><a href="https://wa.me/375296234114" target="_blank">WhatsApp</a></li>
+                                    <li id="c_wechat"><a href="weixin://dl/chat?375296234114" target="_blank">WeChat</a></li>
+                                    <li id="c_viber"><a href="viber://chat?number=%2B375296234114" target="_blank">Viber</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="member w30">
+                            <div class="member-photo"><img src="../images/company/company9(primemilk)/person3.jpg"></div>
+                            <div class="member-name"><span>Artyom Tkachuk</span></div>
+                            <div class="member-contacts">
+                                <ul>
+                                    <li id="job"><a href="#">Sales Manager</a></li>
+                                    <li id="c_email"><a href="mailto:tkachuk@primemilk.by">tkachuk@primemilk.by</a></li>
+                                    <li id="c_phone"><a href="tel:+375298491001">+375 (29) 849-10-01</a></li>
+                                    <li id="c_wapp"><a href="https://wa.me/375298491001" target="_blank">WhatsApp</a></li>
+                                    <li id="c_wechat"><a href="weixin://dl/chat?375298491001" target="_blank">WeChat</a></li>
+                                    <li id="c_viber"><a href="viber://chat?number=%2B375298491001" target="_blank">Viber</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <div class="stand-wrap">
+                    <div class="stand-img">
+                        <img src="../images/render/primemilk.jpg" alt="#">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </MAIN>
+    <FOOTER>
+        <p>Still have a question?</p>
+        <a href="#" class="btn">Contact us</a>
+        <div class="form-wrap">
+            <form class="inner en" id="sf">
+                <div class="form-group">
+                    <input type="text" name="t_name" id="tname" placeholder="Name" required />
+                    <input type="text" name="t_phone" id="t_phone" placeholder="Mobile" required />
+                    <textarea name="t_message" id="t_message" cols="30" rows="10" placeholder="Type your message" required></textarea>
+                    <button type="submit">Send</button>
+                </div>
+            </form>
+            <p id="result"></p>
+        </div>
+    </FOOTER>
+    <script src="../js/jquery-3.5.1.min.js"></script>
+    <script src="../js/owl.carousel.min.js"></script>
+    <script src="../js/mp.min.js"></script>
+    <script src="../js/app.js?v2.0.0"></script>
+</body>
+</html><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

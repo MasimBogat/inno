@@ -1,0 +1,257 @@
+<?
+require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetTitle("Title");
+?><html lang="ru">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <title>Молочный гостинец</title>
+    <meta name="description" content="Молочный гостинец">
+    <meta name="keywords" content="">
+    <link rel="icon" href="../favicon.png" type="../image/x-icon">
+    <link rel="shortcut icon" href="../favicon.png" type="../image/x-icon">
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link rel="stylesheet" href="../css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../css/mp.css">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body class="companie">
+    <HEADER>
+        <div class="backgorund-image">
+            <img src="../images/banner.jpg" alt="">
+        </div>
+        <div class="container">
+            <div class="inner _center h_between">
+                <div class="w30 complany-logo">
+                    <img src="../images/logo/milkgostinec.png" alt="" title="">
+                </div>
+                <div class="w60 company-info">
+                    <h1>Молочный гостинец</h1>
+                    <a href="https://www.molgost.by/en" class="company-site">www.molgost.by</a>
+                    <ul class="company-contacts">
+                        <li>
+                            <img src="../images/icons/mail.svg" alt="ved@molgost.by">
+                            <a href="mailto:ved@molgost.by">ved@molgost.by</a>
+                        </li>
+                        <li>
+                            <img src="../images/icons/mobile-phone.svg" alt="">
+                            <a href="tel:375173973793">+ 375 (17) 397-37-93</a>
+                        </li>
+                        <li>
+                            <img src="../images/icons/placeholder.svg" alt="">
+                           <span>Беларусь, 220075, г. Минск, Партизанский пр-т, 170</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <a class="place">Павильон 2, стенд № F2-2</a>
+    </HEADER>
+    <MAIN>
+        <div class="section">
+            <div class="container">
+                <h2 class="section-title">
+                    О компании                   
+                </h2>
+                <div class="inner _center">
+                    <div class="video-wrap w50">
+                        <div class="video">
+                            <iframe width="420"
+                                    height="315"
+                                    src="https://www.youtube.com/embed/-yuAYfs_Fj4?autoplay=0" allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+                    <div class="info-wrap w50">
+                        <p>Республиканское дочернее производственно-торговое унитарное предприятие «Молочный гостинец» - один из самых известных брендов молочной отрасли в Республике Беларусь. Более 55 лет предприятие работает, руководствуясь неизменными принципами - актуальность, полезность, высокое качество. Производственные мощности компании позволяют перерабатывать более 400 тонн молока в сутки, а ассортимент продукции может удовлетворить потребности самых требовательных и придирчивых потребителей. Ассортимент продукции насчитывает более 100 наименований.</p>
+                        <p>О нас:
+                            <ul>
+                                <li>ассортимент продукции насчитывает более 100 наименований</li>
+                                <li>на сегодняшний день в порфолио компании входит 2 бренда</li>
+                                <li>60% продукции предприятия идет на экспорт</li>
+                                <li>производственная мощность предприятия позволяет перерабатывать более 400 тонн молока в сутки.</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <h2 class="section-title">
+                    Ключевые товары
+                </h2>
+                <div class="inner _normal">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../images/company/company6(milkgostinec)/product3.jpg" alt="Молоко питьевое ультрапастеризованное">
+                        </div>
+                        <div class="product-name">
+                            <h4>Молоко питьевое ультрапастеризованное</h4>
+                        </div>
+                        <div class="prod-desc">
+                            <p>Молокоцельное массовая доля жира 1,5 %, 2,5%, 3,2%, 6%. Упаковка: Elopak Roll Fed, Brik Aseptik с крышкой.</p>
+                            <a href="https://www.molgost.by/products/moloko/" target="_blank">Перейти</a>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../images/company/company6(milkgostinec)/product1.jpg" alt="Сливки питьевые стерилизованные">
+                        </div>
+                        <div class="product-name">
+                            <h4>Сливки питьевые стерилизованные</h4>
+                        </div>
+                        <div class="prod-desc">
+                            <p>Сливки питьевые стерилизованные с массовой долей жира 10 %, 20%. Упаковка: Brik Aseptik.</p>
+                            <a href="https://www.molgost.by/products/slivki-2/" target="_blank">Перейти</a>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../images/company/company6(milkgostinec)/product6.jpg" alt="Крем сливочный ультрапастеризованный ">
+                        </div>
+                        <div class="product-name">
+                            <h4>Крем сливочный ультрапастеризованный</h4>
+                        </div>
+                        <div class="prod-desc">
+                            <p>Крем сливочный ультрапастеризованный массовая доля жира 33%. Упаковка: Brik Aseptik с крышкой.</p>
+                            <a href="https://www.molgost.by/products/slivki-2/" target="_blank">Перейти</a>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../images/company/company6(milkgostinec)/product2.jpg" alt="Молочный коктейль стерилизованный">
+                        </div>
+                        <div class="product-name">
+                            <h4>Молочный коктейль стерилизованный</h4>
+                        </div>
+                        <div class="prod-desc">
+                            <p>Молочный коктейль стерилизованный с массовой долей жира 2,5%. Упаковка: Brik Aseptik с соломкой.</p>
+                            <a href="https://www.molgost.by/products/molochnye-koktejli/" target="_blank">Перейти</a>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../images/company/company6(milkgostinec)/product5.jpg" alt="Сыр твердый, полутвердый">
+                        </div>
+                        <div class="product-name">
+                            <h4>Сыр твердый, полутвердый</h4>
+                        </div>
+                        <div class="prod-desc">
+                            <p>Сыр полутвердый с массовой долей жира 40%, 45%, упаковка- полимерная пленка под вакуумом. Сыр твердый сроком созревания 2 и 4 месяца с массовой долей жира 45%, упаковка- покрытие из полиацетата.</p>
+                            <a href="https://www.molgost.by/products/syry-tverdye-i-polutverdye/" target="_blank">Перейти</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <h2 class="section-title">
+                    Контактные лица
+                </h2>
+                <div class="member-list">
+                    <div class="inner _center">
+                        <div class="member _big w40">
+                            <div class="member-photo"><img src="../images/company/company6(milkgostinec)/person5.jpg"></div>
+                            <div class="member-name"><span>Дмитрий Кондрашев</span></div>
+                            <div class="member-contacts">
+                                <ul>
+                                    <li id="job"><a href="#">Генеральный директор</a></li>
+                                    <li id="c_email"><a href="mailto:info@molgost.by">info@molgost.by</a></li>
+                                    <li id="c_phone"><a href="tel:+375293003444">+375 (44) 300-34-44</a></li>
+                                    <li id="c_wapp"><a href="https://wa.me/375293003444" target="_blank">WhatsApp</a></li>
+                                    <li id="c_wechat"><a href="weixin://dl/chat?375293003444" target="_blank">WeChat</a></li>
+                                    <li id="c_viber"><a href="viber://chat?number=%2B375293003444" target="_blank">Viber</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <h2 class="section-title">
+                    Также на стенде присутствуют
+                </h2>
+                <div class="stand-wrap">
+                    <div class="stand-img">
+                        <img src="../images/render/milkgostinec.jpg" alt="#">
+                    </div>
+                    <div class="member-list">
+                        <div class="member">
+                            <div class="photo"><img src="../images/company/company6(milkgostinec)/person4.jpg" alt=""></div>
+                            <div class="info">
+                                <div class="name"><h4>Александр Хортов</h4></div>
+                                <div class="position"><p>Начальник управления по снабжению и сбыту</p></div>
+                                <div class="email"><a href="mailto:Hortov.am@molgost.by">Hortov.am@molgost.by</a></div>
+                                <div class="phone"><a href="tel:+375447599901">+375 (44) 759-99-01</a></div>
+                                <div class="whatsap"><a href="https://wa.me/375447190483" target="_blank">WhatsApp</a></div>
+                                <div class="weechat"><a href="weixin://dl/chat?375447190483" target="_blank">WeChat</a></div>
+                                <div class="viber"><a href="viber://chat?number=%2B375447190483" target="_blank">Viber</a></div>
+                            </div>
+                        </div>
+                        <div class="member">
+                            <div class="photo"><img src="../images/company/company6(milkgostinec)/person3.jpg" alt=""></div>
+                            <div class="info">
+                                <div class="name"><h4>Владимир Рудник</h4></div>
+                                <div class="position"><p>Первый заместитель генерального директора по производству и сырью</p></div>
+                                <div class="email"><a href="mailto:info@molgost.by">info@molgost.by</a></div>
+                                <div class="phone"><a href="tel:+375296075699">+375 (29) 607-56-99</a></div>
+                                <div class="whatsap"><a href="https://wa.me/375296075699" target="_blank">WhatsApp</a></div>
+                                <div class="weechat"><a href="weixin://dl/chat?375296075699" target="_blank">WeChat</a></div>
+                                <div class="viber"><a href="viber://chat?number=%2B375296075699" target="_blank">Viber</a></div>
+                            </div>
+                        </div>
+                        <div class="member">
+                            <div class="photo"><img src="../images/company/company6(milkgostinec)/person2.png" alt=""></div>
+                            <div class="info">
+                                <div class="name"><h4>Анжела Тарасевич</h4></div>
+                                <div class="position"><p>Начальник отдела ВЭД</p></div>
+                                <div class="email"><a href="mailto:ved@molgost.by">ved@molgost.by</a></div>
+                                <div class="phone"><a href="tel:+375296075753">+375 (29) 607-57-53</a></div>
+                                <div class="whatsap"><a href="https://wa.me/375296075753" target="_blank">WhatsApp</a></div>
+                                <div class="weechat"><a href="weixin://dl/chat?3752960757539" target="_blank">WeChat</a></div>
+                                <div class="viber"><a href="viber://chat?number=%2B375296075753" target="_blank">Viber</a></div>
+                            </div>
+                        </div>
+                        <div class="member">
+                            <div class="photo"><img src="../images/company/company6(milkgostinec)/person1.png" alt=""></div>
+                            <div class="info">
+                                <div class="name"><h4>Антонина Романовская</h4></div>
+                                <div class="position"><p>Специалист по делопроизводству</p></div>
+                                <div class="email"><a href="mailto:antonina150683@gmail.com">antonina150683@gmail.com</a></div>
+                                <div class="phone"><a href="tel:+375296982379">+375 (29) 698-23-79</a></div>
+                                <div class="whatsap"><a href="https://wa.me/375296982379" target="_blank">WhatsApp</a></div>
+                                <div class="weechat"><a href="weixin://dl/chat?375296982379" target="_blank">WeChat</a></div>
+                                <div class="viber"><a href="viber://chat?number=%2B375296982379" target="_blank">Viber</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </MAIN>
+    <FOOTER>
+        <p>Не удалось связаться?</p>
+        <a href="#" class="btn">Напишите нам</a>
+        <div class="form-wrap">
+            <form class="inner ru" id="sf">
+                <div class="form-group">
+                    <input type="text" name="t_name" id="tname" placeholder="Имя" required />
+                    <input type="text" name="t_phone" id="t_phone" placeholder="Телефон" required />
+                    <textarea name="t_message" id="t_message" cols="30" rows="10" placeholder="Введите свое сообщение" required></textarea>
+                    <button type="submit">Отправить</button>
+                </div>
+            </form>
+            <p id="result"></p>
+        </div>
+    </FOOTER>
+    <script src="../js/jquery-3.5.1.min.js"></script>
+    <script src="../js/owl.carousel.min.js"></script>
+    <script src="../js/mp.min.js"></script>
+    <script src="../js/app.js?v2.0.0"></script>
+</body>
+</html>
+<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

@@ -1,0 +1,222 @@
+<?
+require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetTitle("Title");
+?><html lang="ru">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <title>Бабушкина крынка</title>
+    <meta name="description" content="Бабушкина крынка">
+    <meta name="keywords" content="">
+    <link rel="icon" href="../favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link rel="stylesheet" href="../css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../css/mp.css">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body class="companie">
+    <HEADER>
+        <div class="backgorund-image">
+            <img src="../images/banner.jpg" alt="">
+        </div>
+        <div class="container">
+            <div class="inner _center h_between">
+                <div class="w30 complany-logo">
+                    <img src="../images/logo/babushka.png" alt="Бабушкина крынка" title="Бабушкина крынка">
+                </div>
+                <div class="w60 company-info">
+                    <h1>Бабушкина крынка</h1>
+                    <a href="http://babushkina.by/ru" class="company-site" target="_blank">www.babushkina.by</a>
+                    <ul class="company-contacts">
+                        <li>
+                            <img src="../images/icons/mail.svg" alt="">
+                            <a href="mailto:ves_xxx@tut.by">ves_xxx@tut.by</a>
+                        </li>
+                        <li>
+                            <img src="../images/icons/mobile-phone.svg" alt="">
+                            <a href="tel:+375(44)7789878">+375 (44) 778-98-78</a>
+                        </li>
+                        <li>
+                            <img src="../images/icons/placeholder.svg" alt="">
+                           <span>Беларусь, 212013, г. Могилев, ул. Академика Павлова, 3</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <a class="place">Павильон 2, стенд № F2-2</a>
+    </HEADER>
+    <MAIN>
+        <div class="section">
+            <div class="container">
+                <h2 class="section-title">
+                    О компании                   
+                </h2>
+                <div class="inner _center">
+                    <div class="video-wrap w50">
+                        <div class="video">
+                            <iframe width="420"
+                                    height="315"
+                                    src="https://www.youtube.com/embed/3cvD5K7FrBM?autoplay=0" allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+                    <div class="info-wrap w50">
+                        <p>"Бабушкина Крынка" является ведущим предприятием в Республике Беларусь по переработке молока.</p>
+                        <p>О нас:
+                            <ul>
+                                <li>один из лидеров молочной отрасли Республики Беларусь</li>
+                                <li>более 40 лет на рынке</li>
+                                <li>ассортимент продукции насчитывает более 300 наименований</li>
+                                <li>на сегодняшний день в портфолио компании имеется 4 бренда</li>
+                                <li>производственная мощность предприятия позволяет перерабатывать более 2500 тонн молока в сутки</li>
+                                <li>60% продукции предприятия идет на экспорт.</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <h2 class="section-title">
+                    Ключевые товары
+                </h2>
+                <div class="inner _normal">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../images/company/company1(babushka)/product1.jpg" alt="Сухое обезжиренное молоко">
+                        </div>
+                        <div class="product-name">
+                            <h4>Сухое обезжиренное молоко</h4>
+                        </div>
+                        <div class="prod-desc">
+                            <p>Высококачественное сухое обезжиренное молоко упакованное в мешки по 25 кг.</p>
+                            <a href="http://babushkina.by/en/catalog/item/moloko-suhoe-obezzhirennoe" target="_blank">Перейти</a>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../images/company/company1(babushka)/product2.jpg" alt="Сухое цельное молоко">
+                        </div>
+                        <div class="product-name">
+                            <h4>Сухое цельное молоко</h4>
+                        </div>
+                        <div class="prod-desc">
+                            <p>Высококачественное сухое цельное молоко, упакованное в мешки по 25 кг. </p>
+                            <a href="http://babushkina.by/en/catalog/item/moloko-suhoe-celnoe" target="_blank">Перейти</a>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../images/company/company1(babushka)/product3.png" alt="Масло">
+                        </div>
+                        <div class="product-name">
+                            <h4>Масло</h4>
+                        </div>
+                        <div class="prod-desc">
+                            <p>Натуральное высококачественное масло.</p>
+                            <a href="http://babushkina.by/en/catalog/item/maslo-sladkoslivochnoe-nesolenoe-200" target="_blank">Перейти</a>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../images/company/company1(babushka)/product4.png" alt="Стерилизованное молоко">
+                        </div>
+                        <div class="product-name">
+                            <h4>Стерилизованное молоко</h4>
+                        </div>
+                        <div class="prod-desc">
+                            <p>Стерилизованное молоко с длитильными сроками хранения.</p>
+                            <a href="http://babushkina.by/en/catalog/items/moloko" target="_blank">Перейти</a>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../images/company/company1(babushka)/product5.png" alt="Сыры">
+                        </div>
+                        <div class="product-name">
+                            <h4>Сыры</h4>
+                        </div>
+                        <div class="prod-desc">
+                            <p>Натуральный сыр, изготовленный из коровьего молока наивысшего качества.</p>
+                            <a href="http://babushkina.by/en/catalog/items/syry" target="_blank">Перейти</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <h2 class="section-title">
+                    Контактные лица
+                </h2>
+                <div class="member-list">
+                    <div class="inner _center">
+                        <div class="member _big w40">
+                            <div class="member-photo"><img src="../images/company/company1(babushka)/person1.jpg"></div>
+                            <div class="member-name"><span>Алексей Драница</span></div>
+                            <div class="member-contacts">
+                                <ul>
+                                    <li id="job"><a href="#">Начальник отдела ВЭД</a></li>
+                                    <li id="c_email"><a href="mailto:ves_xxx@tut.by">ves_xxx@tut.by</a></li>
+                                    <li id="c_phone"><a href="tel:+375293334455">+375 (44) 719-04-83</a></li>
+                                    <li id="c_wapp"><a href="https://wa.me/375447190483" target="_blank">WhatsApp</a></li>
+                                    <li id="c_wechat"><a href="weixin://dl/chat?375447190483" target="_blank">WeChat</a></li>
+                                    <li id="c_viber"><a href="viber://chat?number=%2B375447190483" target="_blank">Viber</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <h2 class="section-title">
+                    Также на стенде присутствуют
+                </h2>
+                <div class="stand-wrap">
+                    <div class="stand-img">
+                        <img src="../images/render/babushka.jpg" alt="#">
+                    </div>
+                    <div class="member-list">
+                        <div class="member">
+                            <div class="photo"><img src="../images/company/company1(babushka)/person2.JPG" alt=""></div>
+                            <div class="info">
+                                <div class="name"><h4>Артем Зубель</h4></div>
+                                <div class="position"><p>Первый заместитель Генерального диретора</p></div>
+                                <div class="email"><a href="mailto:ves_xxx@tut.by">ves_xxx@tut.by</a></div>
+                                <div class="phone"><a href="tel:+375445500051">+375 (44) 550-00-51</a></div>
+                                <div class="whatsap"><a href="https://wa.me/375445500051" target="_blank">WhatsApp</a></div>
+                                <div class="weechat"><a href="weixin://dl/chat?375445500051" target="_blank">WeChat</a></div>
+                                <div class="viber"><a href="viber://chat?number=%2B375445500051" target="_blank">Viber</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </MAIN>
+    <FOOTER>
+        <p>Не удалось связаться?</p>
+        <a href="#" class="btn">Напишите нам</a>
+        <div class="form-wrap">
+            <form class="inner" id="sf" class="ru">
+                <div class="form-group">
+                    <input type="text" name="t_name" id="tname" placeholder="Имя" required />
+                    <input type="text" name="t_phone" id="t_phone" placeholder="Телефон" required />
+                    <textarea name="t_message" id="t_message" cols="30" rows="10" placeholder="Введите свое сообщение" required></textarea>
+                    <button type="submit">Отправить</button>
+                </div>
+            </form>
+            <p id="result"></p>
+        </div>
+    </FOOTER>
+    <script src="../js/jquery-3.5.1.min.js"></script>
+    <script src="../js/owl.carousel.min.js"></script>
+    <script src="../js/mp.min.js"></script>
+    <script src="../js/app.js"></script>
+</body>
+</html><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

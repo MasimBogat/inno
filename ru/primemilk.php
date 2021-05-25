@@ -1,0 +1,211 @@
+<?
+require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetTitle("Title");
+?><html lang="ru">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <title>Праймилк</title>
+    <meta name="description" content="Праймилк">
+    <meta name="keywords" content="">
+    <link rel="icon" href="../favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link rel="stylesheet" href="../css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../css/mp.css">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body class="companie">
+    <HEADER>
+        <div class="backgorund-image">
+            <img src="../images/banner.jpg" alt="">
+        </div>
+        <div class="container">
+            <div class="inner _center h_between">
+                <div class="w30 complany-logo">
+                    <img src="../images/logo/primemilk.png" alt="" title="">
+                </div>
+                <div class="w60 company-info">
+                    <h1>Праймилк</h1>
+                    <a href="https://primemilk.by" class="company-site" target="_blank">wwww.primemilk.by</a>
+                    <ul class="company-contacts">
+                        <li>
+                            <img src="../images/icons/mail.svg" alt="">
+                            <a href="mailto:info@primemilk.by">info@primemilk.by</a>
+                        </li>
+                        <li>
+                            <img src="../images/icons/mobile-phone.svg" alt="">
+                            <a href="tel:+375151472302">+375 (15) 147-23-02</a>
+                        </li>
+                        <li>
+                            <img src="../images/icons/placeholder.svg" alt="">
+                           <span>Беларусь, 231513, г. Щучина, ул. 17 Сентября, 51/2</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <a class="place">Павильон 2, стенд № F2-2</a>
+    </HEADER>
+    <MAIN>
+        <div class="section">
+            <div class="container">
+                <h2 class="section-title">
+                    О компании
+                   
+                </h2>
+                <div class="inner _center">
+                    <div class="video-wrap w50">
+                        <div class="video">
+                            <iframe width="420"
+                                    height="315"
+                                    src="https://www.youtube.com/embed/chepPsVEelc?autoplay=0" allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+                    <div class="info-wrap w50">
+                        <p>
+                            ООО «Праймилк» - производитель высококачественных продуктов широкого спектра применения на основе сыворотки.
+                            </p>
+                        <p>О нас:
+                            <ul>
+                                <li>полная автоматизация производственного процесса</li>
+                                <li>визуальный мониторинг всех этапов обработки</li>
+                                <li>высококачественная переработка сырья с применением безотходных производственных процессов при разработке и производстве всех видов продукции</li>
+                                <li>изготовление по запросу / рецепту клиента</li>
+                                <li>95% продукции идет на экспорт.</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <h2 class="section-title">
+                    Ключевые товары
+                </h2>
+                <div class="inner _normal">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../images/company/company9(primemilk)/product1.jpg" alt="Концентрат молочно-жировой сухой с массовой долей жира от 20 до 55% ">
+                        </div>
+                        <div class="product-name">
+                            <h4>Концентрат молочно-жировой сухой с массовой долей жира от 20 до 55%</h4>
+                        </div>
+                        <div class="prod-desc">
+                            <p>Вырабатывается из пастеризованной молочной сыворотки и растительного масла с последующей термической обработкой, сгущением, гомогенизацией и сушкой на распылительной сушильной установке, предназначен для реализации и использования в пищевой промышленности.</p>
+                            <a href="https://primemilk.by/food/koncentrat-molochno-jyrovoy.html" target="_blank">Перейти</a>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../images/company/company9(primemilk)/product2.jpg" alt="Концентрат сывороточно-жировой сухой «ИНКОФАТ-1» с массовой долей жира от 20 до 55%">
+                        </div>
+                        <div class="product-name">
+                            <h4>Концентрат сывороточно-жировой сухой «ИНКОФАТ-1» с массовой долей жира от 20 до 55% </h4>
+                        </div>
+                        <div class="prod-desc">
+                            <p>Вырабатывается из пастеризованной молочной сыворотки и животных жиров с последующей термической обработкой, сгущением, гомогенизацией и сушкой на распылительной сушильной установке, предназначенный для реализации и использования в пищевой промышленности.</p>
+                            <a href="https://primemilk.by/food/inkofat-1.html" target="_blank">Перейти</a>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../images/company/company9(primemilk)/product3.jpg" alt="Заменитель сухих сливок на растительной основе с массовой долей жира  от 42% до 55 %">
+                        </div>
+                        <div class="product-name">
+                            <h4>Заменитель сухих сливок на растительной основе с массовой долей жира  от 42% до 55 %</h4>
+                        </div>
+                        <div class="prod-desc">
+                            <p>Вырабатывается из пастеризованной молочной сыворотки и растительного (пальмового или кокосового) масла с последующей термической обработкой, сгущением, гомогенизацией и сушкой на распылительной сушильной установке, предназначен для реализации и использования в пищевой промышленности.</p>
+                            <a href="https://primemilk.by/food/zamenitel-suhih-slivok-na-rastitelnoj-osnove-s-massovoj-dolej-zhira-ot-42-do-55.html" target="_blank">Перейти</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <h2 class="section-title">
+                    Контактные лица
+                </h2>
+                <div class="member-list">
+                    <div class="inner _center">
+                        <div class="member w30">
+                            <div class="member-photo"><img src="../images/company/company9(primemilk)/person2.jpg"></div>
+                            <div class="member-name"><span>Виолетта Деденко </span></div>
+                            <div class="member-contacts">
+                                <ul>
+                                    <li id="job"><a href="#">Специалист по внешнеэкономической деятельности</a></li>
+                                    <li id="c_email"><a href="mailto:dedenko@primemilk.by">dedenko@primemilk.by</a></li>
+                                    <li id="c_phone"><a href="tel:+375445853840">+375 (44) 585-38-40</a></li>
+                                    <li id="c_wapp"><a href="https://wa.me/375445853840" target="_blank">WhatsApp</a></li>
+                                    <li id="c_wechat"><a href="weixin://dl/chat?375445853840" target="_blank">WeChat</a></li>
+                                    <li id="c_viber"><a href="viber://chat?number=%2B375445853840" target="_blank">Viber</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="member w30">
+                            <div class="member-photo"><img src="../images/company/company9(primemilk)/person1.jpg"></div>
+                            <div class="member-name"><span>Анатолий Белявский</span></div>
+                            <div class="member-contacts">
+                                <ul>
+                                    <li id="job"><a href="#">Директор</a></li>
+                                    <li id="c_email"><a href="mailto:belyavskij@primemilk.by">belyavskij@primemilk.by</a></li>
+                                    <li id="c_phone"><a href="tel:+375296234114">+375 (29) 623-41-14</a></li>
+                                    <li id="c_wapp"><a href="https://wa.me/375296234114" target="_blank">WhatsApp</a></li>
+                                    <li id="c_wechat"><a href="weixin://dl/chat?375296234114" target="_blank">WeChat</a></li>
+                                    <li id="c_viber"><a href="viber://chat?number=%2B375296234114" target="_blank">Viber</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="member w30">
+                            <div class="member-photo"><img src="../images/company/company9(primemilk)/person3.jpg"></div>
+                            <div class="member-name"><span>Артём Ткачук</span></div>
+                            <div class="member-contacts">
+                                <ul>
+                                    <li id="job"><a href="#">Специалист по продаже</a></li>
+                                    <li id="c_email"><a href="mailto:tkachuk@primemilk.by">tkachuk@primemilk.by</a></li>
+                                    <li id="c_phone"><a href="tel:+375298491001">+375 (29) 849-10-01</a></li>
+                                    <li id="c_wapp"><a href="https://wa.me/375298491001" target="_blank">WhatsApp</a></li>
+                                    <li id="c_wechat"><a href="weixin://dl/chat?375298491001" target="">WeChat</a></li>
+                                    <li id="c_viber"><a href="viber://chat?number=%2B375298491001" target="_blank">Viber</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <div class="stand-wrap">
+                    <div class="stand-img">
+                        <img src="../images/render/primemilk.jpg" alt="#">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </MAIN>
+    <FOOTER>
+        <p>Не удалось связаться?</p>
+        <a href="#" class="btn">Напишите нам</a>
+        <div class="form-wrap">
+            <form class="inner ru" id="sf">
+                <div class="form-group">
+                    <input type="text" name="t_name" id="tname" placeholder="Имя" required />
+                    <input type="text" name="t_phone" id="t_phone" placeholder="Телефон" required />
+                    <textarea name="t_message" id="t_message" cols="30" rows="10" placeholder="Введите свое сообщение" required></textarea>
+                    <button type="submit">Отправить</button>
+                </div>
+            </form>
+            <p id="result"></p>
+        </div>
+    </FOOTER>
+    <script src="../js/jquery-3.5.1.min.js"></script>
+    <script src="../js/owl.carousel.min.js"></script>
+    <script src="../js/mp.min.js"></script>
+    <script src="../js/app.js?v2.0.0"></script>
+</body>
+</html><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
