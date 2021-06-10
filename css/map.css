@@ -20,16 +20,19 @@
   -o-transition: 0.3s;
   transition: 0.3s;
   margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 #map .map-navigation > li:last-child {
   border-right: none;
 }
 #map .map-navigation > li.active {
-  background: #4aca20;
+  background: #e6006a;
   color: white;
 }
 #map .map-navigation > li:hover {
-  background: #3a9e19;
+  background: #cd005e;
   color: white;
 }
 #map .map-slide {
@@ -289,8 +292,19 @@
   width: 45px;
   height: 45px;
   margin-right: 24px;
-  background: #839f33;
+  background: #e6006a;
+  color: #fff;
   border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+#map .map-2 .panzoom-buttons BUTTON:hover {
+  background: #cd005e;
 }
 #map .map-2 .panzoom-buttons BUTTON#zoom-in,
 #map .map-2 .panzoom-buttons BUTTON#zoom-out {
@@ -298,6 +312,9 @@
 }
 #map .map-2 .panzoom-buttons BUTTON:last-child {
   margin-right: 0;
+}
+#map .map-2 .panzoom-buttons BUTTON > IMG {
+  max-width: 20px;
 }
 @media (max-width: 758px) {
 }
@@ -331,13 +348,13 @@
 #map .map-3 .filter-chooser span {
   padding: 5px 20px;
   border-radius: 16px;
-  border: 2px solid green;
+  border: 2px solid #e6006a;
   margin-right: 24px;
   margin-bottom: 12px;
   cursor: pointer;
 }
 #map .map-3 .filter-chooser span.active {
-  background: green;
+  background: #e6006a;
   color: white;
 }
 #map .map .owl-stage {
@@ -435,9 +452,10 @@
   #map .map .map-navigation LI {
     width: 100%;
     border-right: 0;
-    border-bottom: 1px solid #979797;
+    background-color: #fff;
+    border-bottom: 1px solid #cecece;
   }
-  #map .map .map-navigation LI:last-child {
-    border-bottom: 0;
+  #map .map-navigation > li.active {
+    background: #e6006a;
   }
 }

@@ -1,10 +1,6 @@
-<?
-require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetTitle("Белорусская экспозиция на выставке Gulfood 2021");
-?>
 <html lang="ru">
 <head>        
-<meta name="description" content="Белорусская экспозиция на выставке Gulfood 2021">
+<meta name="description" content="Национальная экспозиция Республики Беларусь на выставке «ИННОПРОМ» 2021">
         <meta name="keywords" content="">
         <link rel="icon" href="favicon.png" type="image/x-icon">
         <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
@@ -69,12 +65,12 @@ $APPLICATION->SetTitle("Белорусская экспозиция на выс�
                 <div class="inner _center">
                     <div class="info-wrap w70">
                         <h1 class="title">
-                            Национальная экспозиция <br> Made in Belarus
+                        Национальная экспозиция Республики Беларусь на выставке «ИННОПРОМ» 2021
                         </h1>
                         <ul>
                             <li class="h3">Россия, г.Екатеренбург</li>
-                            <li class="h3">6 − 9 июля 2021 г.</li>
-                            <!-- <li class="h3">Павильон 2, стенды № F2-2, F2-20</li> -->
+                            <li class="h3">5 − 8 июля 2021 г.</li>
+                            <li class="h3">Павильон 2</li>
                         </ul>
                     </div>
                     <div class="banner-logos w30">
@@ -106,7 +102,7 @@ $APPLICATION->SetTitle("Белорусская экспозиция на выс�
                     <div class="inner _normal">
                         <div class="w40 background-grey">
                             <div class="about-card-text">
-                                <p><a href="https://expo.innoprom.com/about/general-information/" target="_blank" title="Gulfood" alt="INNOPROM">ИННОПРОМ</a> – это главная индустриальная, торговая и экспортная площадка в России. Выступая одним из ключевых полигонов Министерства промышленности и торговли РФ, ИННОПРОМ служит площадкой, где закладываются основы промышленной политики. Около 80% посетителей выставки – профессиональные покупатели из разных стран мира, специалисты с промышленных предприятий, принимающие решения о внедрении на производстве новой продукции и технологий</p>
+                                <p><a href="https://expo.innoprom.com/about/general-information/" target="_blank" title="Gulfood" alt="INNOPROM">ИННОПРОМ</a> – крупнейшее индустриальное, торговое и экспортное мероприятие в России. 600 компаний-участников из 22 стран мира располагаются на 50 тыс. кв. метрах 3-х павильонов.</p>
                             </div>
                         </div>
                         <div class="w60">
@@ -123,36 +119,36 @@ $APPLICATION->SetTitle("Белорусская экспозиция на выс�
         </div>
         <div class="section" id="about-us">
            <div class="container">
-               <h2 class="section-title">Белорусская экспозиция в рамках Иннопром</h2>
+               <h2 class="section-title">Национальная экспозиция Республики Беларусь на выставке «ИННОПРОМ» 2021</h2>
                <div class="section-content">
                    <div class="text-center" id="belaruspav">
                         <p>Белорусскую делегацию возглавляют:</p>
                     </div>
                     <div class="member-list">
                         <div class="member">
+                            <div class="photo"><img src="images/person-main/golovchenko.jpg" alt=""></div>
+                            <div class="info">
+                                <div class="name"><h4>Роман Александрович Головченко</h4></div>
+                                <div class="position"><p>Премьер-министр Республики Беларусь</p></div>
+                            </div>
+                        </div>
+                        <div class="member">
+                            <div class="photo"><img src="images/person-main/parhomchik.jpg" alt=""></div>
+                            <div class="info">
+                                <div class="name"><h4>Петр Александрович Пархомчик</h4></div>
+                                <div class="position"><p>Министр промышленности Республики Беларусь </p></div>
+                            </div>
+                        </div>
+                        <div class="member">
                             <div class="photo"><img src="images/person-main/ulahovich.jpg" alt=""></div>
                             <div class="info">
-                                <div class="name"><h4>Владимир Улахович</h4></div>
-                                <div class="position"><p>председатель Белорусской торгово-промышленной палаты</p></div>
-                            </div>
-                        </div>
-                        <div class="member">
-                            <div class="photo"><img src="images/person-main/brylo.jpg" alt=""></div>
-                            <div class="info">
-                                <div class="name"><h4>Игорь Брыло</h4></div>
-                                <div class="position"><p>заместитель Министра сельского хозяйства и продовольствия Республики Беларусь</p></div>
-                            </div>
-                        </div>
-                        <div class="member">
-                            <div class="photo"><img src="images/person-main/yakovchits.jpg" alt=""></div>
-                            <div class="info">
-                                <div class="name"><h4>Александр Яковчиц</h4></div>
-                                <div class="position"><p>заместитель председателя белорусского государственного концерна пищевой промышленности «БЕЛГОСПИЩЕПРОМ»</p></div>
+                                <div class="name"><h4>Владимир Евгеньевич Улахович</h4></div>
+                                <div class="position"><p>Председатель Белорусской торгово-промышленной палаты</p></div>
                             </div>
                         </div>
                     </div>
                    <div class="text-center">
-                       <p>В белорусской экспозиции принимают участие 25 компаний-экспортеров мясной, молочной, кондитерской продукции, а также продукции из мяса птицы и яиц. Предприятия обладают международными сертификатами соответствия требованиям ISO по системе менеджмента качества и безопасности пищевых продуктов, а демонстрируемая на выставке продукция имеет сертификаты «Халяль»</p>
+                       <p>В Национальной экспозиции Республики Беларусь принимают участие 25 компаний-экспортеров машиностроительной, станкостроительной, нефтехимической, научной отраслей.</p>
                    </div>
                </div>
            </div>
@@ -167,46 +163,46 @@ $APPLICATION->SetTitle("Белорусская экспозиция на выс�
                             <div class="tab-nav">
                                 <ul class="tab-items">
                                     <li class="tab-item">
-                                        <a href="#meat" class="_is-active">
+                                        <a href="#auto" class="_is-active">
                                             <span class="tab-icon">
-                                                <img src="images/icons/meat.svg" class="no-active">
-                                                <img src="images/icons/meat_green.svg" class="active">
+                                                <img src="images/icons/auto.svg" class="no-active">
+                                                <img src="images/icons/auto-red.svg" class="active">
                                             </span>
                                             <span class="tab-title">
-                                                Мясная продукция
+                                                Машиностроение
                                             </span>
                                         </a>
                                     </li>
                                     <li class="tab-item">
-                                        <a href="#milk">
+                                        <a href="#machine">
                                             <span class="tab-icon">
-                                                <img src="images/icons/milk.svg" class="no-active">
-                                                <img src="images/icons/milk_green.svg" class="active">
+                                                <img src="images/icons/machine.svg" class="no-active">
+                                                <img src="images/icons/machine-red.svg" class="active">
                                             </span>
                                             <span class="tab-title">
-                                                Молочная продукция
+                                                Станкостроение
                                             </span>
                                         </a>
                                     </li>
                                     <li class="tab-item">
-                                        <a href="#chicken">
+                                        <a href="#oil">
                                             <span class="tab-icon">
-                                                <img src="images/icons/checken.svg" class="no-active">
-                                                <img src="images/icons/checken_green.svg" class="active">
+                                                <img src="images/icons/oil.svg" class="no-active">
+                                                <img src="images/icons/oil-red.svg" class="active">
                                             </span>
                                             <span class="tab-title">
-                                                Мясо птицы и яйца
+                                                Нефтехимия
                                             </span>
                                         </a>
                                     </li>
                                     <li class="tab-item">
-                                        <a href="#sweets">
+                                        <a href="#science">
                                             <span class="tab-icon">
-                                                <img src="images/icons/sweets.svg" class="no-active">
-                                                <img src="images/icons/sweets_green.svg" class="active">
+                                                <img src="images/icons/science.svg" class="no-active">
+                                                <img src="images/icons/science-red.svg" class="active">
                                             </span>
                                             <span class="tab-title">
-                                                Кондитерские изделия, готовые завтраки, бакалея
+                                                Наука
                                             </span>
                                         </a>
                                     </li>
@@ -215,80 +211,113 @@ $APPLICATION->SetTitle("Белорусская экспозиция на выс�
                         </div>
                         <div class="w60">
                             <div class="tab-contents">
-                                <div class="tab-content _is-active" id="meat">
+                                <div class="tab-content _is-active" id="auto">
                                     <span class="tab-decscription">
-                                        Производители мясной продукци
+                                        Производители машиностроительной продукции
                                     </span>
                                     <ul class="org-items">
-                                        <li class="org-item" data-id="grodno">
-                                            <img src="images/logo/grodnomyaso.png" title="Гродненский мясокомбинат" alt="Гродненский мясокомбинат">
-                                            <span>Гродненский мясокомбинат</span>
+                                        <li class="org-item" data-id="bate">
+                                            <img src="images/logo/bate.png" title="Борисовский завод автотракторного электрооборудования" alt="Борисовский завод автотракторного электрооборудования">
+                                            <span>Борисовский завод автотракторного электрооборудования</span>
 
                                         </li>
-                                        <li class="org-item" data-id="pikant">
-                                            <img src="images/logo/pikant.png" title="Пинский мясокомбинат" alt="Пинский мясокомбинат">
-                                            <span>Пинский мясокомбинат</span>
+                                        <li class="org-item" data-id="bmz">
+                                            <img src="images/logo/bmz.jpg" title="Белорусский металлургический завод" alt="Белорусский металлургический завод">
+                                            <span>Белорусский металлургический завод</span>
                                         </li>
-                                        <li class="org-item" data-id="slonimsky">
-                                            <img src="images/logo/slonimsky.png" title="Слонимский мясокомбинат" alt="Слонимский мясокомбинат">
-                                            <span>Слонимский мясокомбинат</span>
+                                        <li class="org-item" data-id="gisto">
+                                            <img src="images/logo/gisto.png" title="Гомельский завод специнструмента и технологической оснастки" alt="Гомельский завод специнструмента и технологической оснастки">
+                                            <span>Гомельский завод специнструмента и технологической оснастки</span>
                                         </li>
+                                        <li class="org-item" data-id="integral">
+                                            <img src="images/logo/integral.png" title="ИНТЕГРАЛ" alt="ИНТЕГРАЛ">
+                                            <span>ИНТЕГРАЛ</span>
+                                        </li>
+                                        <li class="org-item" data-id="mzor">
+                                            <img src="images/logo/mzor.png" title="МЗОР" alt="МЗОР">
+                                            <span>МЗОР</span>
+                                        </li>
+                                        <li class="org-item" data-id="lida">
+                                            <img src="images/logo/lida.svg" title="Лидсельмаш" alt="Лидсельмаш">
+                                            <span>Лидсельмаш</span>
+                                        </li>
+                                        <li class="org-item" data-id="mmz">
+                                            <img src="images/logo/mmz.png" title="МИНСКИЙ МОТОРНЫЙ ЗАВОД" alt="МИНСКИЙ МОТОРНЫЙ ЗАВОД">
+                                            <span>МИНСКИЙ МОТОРНЫЙ ЗАВОД</span>
+                                        </li>
+                                        <li class="org-item" data-id="mpz">
+                                            <img src="images/logo/mpz.png" title="Минский подшипниковый завод" alt="Минский подшипниковый завод">
+                                            <span>Минский подшипниковый завод</span>
+                                        </li>
+                                        <li class="org-item" data-id="belomo">
+                                            <img src="images/logo/belomo.png" title="ММЗ им.С.И.Вавилова – управляющая компания холдинга 'БЕЛОМО'" alt="ММЗ им.С.И.Вавилова – управляющая компания холдинга 'БЕЛОМО'">
+                                            <span>ММЗ им.С.И.Вавилова – управляющая компания холдинга "БЕЛОМО"</span>
+                                        </li>
+                                        
                                     </ul>
                                 </div>
-                                <div class="tab-content" id="milk">
+                                <div class="tab-content" id="machine">
                                     <span class="tab-decscription">
-                                        Производители молочной продукции
+                                        Производители станков
                                     </span>
                                     <ul class="org-items">
-                                        <li class="org-item" data-id="babyshka-krinka">
-                                            <img src="images/logo/babushka.png" title="Babushkina krynka" alt="Babushkina krynka">
-                                            <span>Бабушкина крынка</span>
+                                        <li class="org-item" data-id="pic">
+                                            <img src="images/logo/pic-logo.png" title="Станкозавод 'Красный борец'" alt="Станкозавод 'Красный борец'">
+                                            <span>Станкозавод "Красный борец"</span>
                                         </li>
-                                        <li class="org-item" data-id="bellakt">
-                                            <img src="images/logo/belakt.png" title="Bellakt" alt="Bellakt">
-                                            <span>Беллакт</span>
+                                        <li class="org-item" data-id="szkminsk">
+                                            <img src="images/logo/szkminsk.png" title="Станкостроительный завод им. С.М.Кирова" alt="Станкостроительный завод им. С.М.Кирова">
+                                            <span>Станкостроительный завод им. С.М.Кирова</span>
                                         </li>
-                                        <li class="org-item" data-id="molochny-goscinec">
-                                            <img src="images/logo/milkgostinec.png" title="Molochny Gostinets" alt="Molochny Gostinets">
-                                            <span>Молочный гостинец</span>
-                                        </li>
-                                        <li class="org-item" data-id="molochny-mir">
-                                            <img src="images/logo/milkmir.png" title="Molochny Mir" alt="Molochny Mir">
-                                            <span>Молочный Мир</span>
-                                        </li>
-                                        <li class="org-item" data-id="primemilk">
-                                            <img src="images/logo/primemilk.png" title="Primemilk" alt="Primemilk">
-                                            <span>Праймилк</span>
-                                        </li>
-                                        <li class="org-item" data-id="rogachev">
-                                            <img src="images/logo/rogachev.png" title="Rogachev Tinned Dairy Industrial Complex" alt="Rogachev Tinned Dairy Industrial Complex">
-                                            <span>Рогачёвский молочноконсервный комбинат</span>
+                                        <li class="org-item" data-id="stankogomel">
+                                            <img src="images/logo/stankogomel.png" title="СтанкоГомель" alt="СтанкоГомель">
+                                            <span>СтанкоГомель</span>
                                         </li>
                                     </ul>
                                 </div>
-                                <div class="tab-content" id="sweets">
+                                <div class="tab-content" id="oil">
                                     <span class="tab-decscription">
-                                        Производители кондитерских изделий, готовых завтраков и бакалеи
+                                        Производители нефтехимической продукции
                                     </span>
                                     <ul class="org-items" >
-                                        <li class="org-item" data-id="belgospischeprom">
-                                            <img src="images/logo/belgospischeprom.png" title="Belarusian State Food Industry Concern BELGOSPISHCHEPROM" alt="Belarusian State Food Industry Concern BELGOSPISHCHEPROM">
-                                            <span>Белорусский государственный концерн пищевой промышленности «Белгоспищепром»</span>
-                                        </li>
-                                        <li class="org-item" data-id="vitba">
-                                            <img src="images/logo/vitba.png" title="Confectionery factory VITBA" alt="Confectionery factory VITBA">
-                                            <span>Кондитерская фабрика «Витьба»</span>
+                                        <li class="org-item" data-id="belshina">
+                                            <img src="images/logo/belshina.png" title="Белшина" alt="Белшина">
+                                            <span>Белшина</span>
                                         </li>
                                     </ul>
                                 </div>
-                                <div class="tab-content" id="chicken">
+                                <div class="tab-content" id="science">
                                     <span class="tab-decscription">
-                                       Производители яиц и продукции из мяса птицы
+                                       Научные организации и предприятия
                                     </span>
                                     <ul class="org-items">
-                                        <li class="org-item" data-id="soligorsk">
-                                            <img src="images/logo/soligorsk-ru.png" title="Soligorsk Poultry Factory" alt="Soligorsk Poultry Factory">
-                                            <span>Солигорская птицефабрика</span>
+                                        <li class="org-item" data-id="belisa">
+                                            <img src="images/logo/belisa.png" title="Белорусский институт системного анализа и информационного обеспечения научно-технической сферы" alt="Белорусский институт системного анализа и информационного обеспечения научно-технической сферы">
+                                            <span>Белорусский институт системного анализа и информационного обеспечения научно-технической сферы</span>
+                                        </li>
+                                        <li class="org-item" data-id="npocenter">
+                                            <img src="images/logo/npocenter.png" title="НПО Центр" alt="НПО Центр">
+                                            <span>НПО Центр</span>
+                                        </li>
+                                        <li class="org-item" data-id="itm">
+                                            <img src="images/logo/itm.gif" title="Институт технологии металлов Национальной академии наук Беларуси" alt="Институт технологии металлов Национальной академии наук Беларуси">
+                                            <span>Институт технологии металлов Национальной академии наук Беларуси</span>
+                                        </li>
+                                        <li class="org-item" data-id="physics">
+                                            <img src="images/logo/physics.png" title="Научно-практический центр Национальной академии наук Беларуси по материаловедению" alt="Научно-практический центр Национальной академии наук Беларуси по материаловедению">
+                                            <span>Научно-практический центр Национальной академии наук Беларуси по материаловедению</span>
+                                        </li>
+                                        <li class="org-item" data-id="phti">
+                                            <img src="images/logo/phti.png" title="Физико-технический институт Национальной академии наук Беларуси" alt="Физико-технический институт Национальной академии наук Беларуси">
+                                            <span>Физико-технический институт Национальной академии наук Беларуси</span>
+                                        </li>
+                                        <li class="org-item" data-id="oim">
+                                            <img src="images/logo/oim.png" title="Объединенный институт машиностроения НАН Беларуси" alt="Объединенный институт машиностроения НАН Беларуси">
+                                            <span>Объединенный институт машиностроения НАН Беларуси</span>
+                                        </li>
+                                        <li class="org-item" data-id="ifnan">
+                                            <img src="images/logo/ifnan.png" title="Институт физики Национальной академии наук Беларуси" alt="Институт физики Национальной академии наук Беларуси">
+                                            <span>Институт физики Национальной академии наук Беларуси</span>
                                         </li>
                                     </ul>
                                 </div>
@@ -1353,7 +1382,7 @@ $APPLICATION->SetTitle("Белорусская экспозиция на выс�
 
             </div>
         </div>
-        <div class="section" id="events">
+        <!-- <div class="section" id="events">
             <div class="container">
                 <h2 class="section-title">Лента событий</h2>
                 <div class="section-content">
@@ -1364,7 +1393,7 @@ $APPLICATION->SetTitle("Белорусская экспозиция на выс�
                     <p>Читать больше новостей в <a href="https://www.facebook.com/belinterexpo.by/">Facebook</a> и <a href="https://instagram.com/belinterexpo.by">Instagram</a></p>
                    </div>
             </div>
-        </div>
+        </div> -->
         <div class="section" id="docs">
             <div class="container">
                 <div class="inner _center">
@@ -1378,7 +1407,7 @@ $APPLICATION->SetTitle("Белорусская экспозиция на выс�
                     <div class="w70">
                         <div class="docs-cards">
                             <div class="docs-card">
-                                <a href="/gulfood2021/upload/Gulfood 2021_Belarus Pavilion_Brochure.pdf" title="Brochure" alt="Brochure" target="_blank">Брошюра</a>
+                                <a href="/upload/Gulfood 2021_Belarus Pavilion_Brochure.pdf" title="Brochure" alt="Brochure" target="_blank">Брошюра</a>
                             </div>
                             <div class="docs-card">
                                 <a href="#" title="Press release" alt="Пресс-релиз">Пресс-релиз</a>
@@ -1387,7 +1416,7 @@ $APPLICATION->SetTitle("Белорусская экспозиция на выс�
                                 <a href="#" title="Photos" alt="Photos ">Фото</a>
                             </div>
                             <div class="docs-card">
-                                <a href="/gulfood2021/upload/belaruspav.png" title="Logos" alt="Logos">Логотип</a>
+                                <a href="/upload/belaruspav.png" title="Logos" alt="Logos">Логотип</a>
                             </div>
                         </div>
                     </div>
@@ -1402,20 +1431,20 @@ $APPLICATION->SetTitle("Белорусская экспозиция на выс�
                         <div class="inner _center">
                             <div class="member w30">
                                 <div class="member-photo"><img src="images/person-main/corneeva.jpg"></div>
-                                <div class="member-name"><span>Анастасия Корнеева</span></div>
+                                <div class="member-name"><span>Дарья Лохман</span></div>
                                 <div class="member-contacts">
                                     <ul>
-                                        <li><a>Старший менеджер проектов</a></li>
-                                        <li><a href="mailto:ak@belinterexpo.by">ak@belinterexpo.by</a></li>
-                                        <li><a href="tel:+375445091202">+375 (44) 509-12-02</a></li>
-                                        <li id="c_tg"><a href="tg://resolve?domain=@anastasiya_korneyeva" target="_blank">TG</a></li>
-                                        <li id="c_wapp"><a href="whatsapp://send?phone=+375445091202" target="_blank">WhatsApp</a></li>
+                                        <li><a>Менеджер проекта</a></li>
+                                        <li><a href="mailto:dl@belinterexpo.by">dl@belinterexpo.by</a></li>
+                                        <li><a href="tel:+375291503226">+375 (29) 150-32-26</a></li>
+                                        <!-- <li id="c_tg"><a href="tg://resolve?domain=@anastasiya_korneyeva" target="_blank">TG</a></li> -->
+                                        <!-- <li id="c_wapp"><a href="whatsapp://send?phone=+375445091202" target="_blank">WhatsApp</a></li>
                                         <li id="c_wechat"><a href="weixin://dl/chat?375445091202" target="_blank">WeChat</a></li>
-                                        <li id="c_viber"><a href="viber://chat?number=%2B375445091202" target="_blank">Viber</a></li>
+                                        <li id="c_viber"><a href="viber://chat?number=%2B375445091202" target="_blank">Viber</a></li> -->
                                     </ul>
                                 </div>
                             </div>
-                            <div class="member w30">
+                            <!-- <div class="member w30">
                                 <div class="member-photo"><img src="images/person-main/prineslik.jpg"></div>
                                 <div class="member-name"><span>Анна Принеслик</span></div>
                                 <div class="member-contacts">
@@ -1429,7 +1458,7 @@ $APPLICATION->SetTitle("Белорусская экспозиция на выс�
                                         <li id="c_viber"><a href="viber://chat?number=%2B375296139584" target="_blank">Viber</a></li>
                                     </ul>
                                 </div>
-                            </div>
+                            </div> -->
                             <div class="member w30">
                                 <div class="member-photo"><img src="images/person-main/photo-director.jpg"></div>
                                 <div class="member-name"><span>Евгений Введенский</span></div>
@@ -1532,4 +1561,4 @@ $APPLICATION->SetTitle("Белорусская экспозиция на выс�
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
     <script src="js/fb.js"></script>
     </body>
-</html><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+</html>
