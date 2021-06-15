@@ -22,7 +22,7 @@ $(document).ready(function() {
         }
     });
     setActiveLang();
-    $('.about-us.owl-carousel').owlCarousel({
+    $('.about-pavilion.owl-carousel').owlCarousel({
         nav: false,
         dots: true,
         items: 1,
@@ -41,7 +41,32 @@ $(document).ready(function() {
             }
         }
     });
-    $('.about-img-link').magnificPopup({type:'image'});
+    $('.organizators.owl-carousel').owlCarousel({
+        nav: false,
+        dots: false,
+        items: 1,
+        touch: true,
+        drag: true,
+        margin: 0,
+        responsive: {
+            0: {
+                items: 1,
+                nav: true
+            },
+            575: {
+                items: 3,
+                nav: true
+            },
+            991: {
+                items: 4,
+                nav: true
+            },
+            1280: {
+                items: 5
+            }
+        }
+    });
+    $('.about-pavilion .about-img-link').magnificPopup({type:'image'});
     /*tabs*/
     let tabLinks = $('.tab-item > A');
     tabLinks.on('click', function(e) {
