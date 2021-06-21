@@ -24,6 +24,14 @@ $(document).ready(function() {
         $('.map-navigation li:nth-child(3)').trigger('click');
     });
 
+    $('#map .map-1 #clickableMapElement').on('click', function(){
+        $('.map-navigation li:nth-child(2)').trigger('click');
+    });
+
+    $('#map .map-2 #clickableMapElement').on('click', function(){
+        $('.map-navigation li:nth-child(3)').trigger('click');
+    });
+
     // Third Map
     var $svgSections = $('.map-3 #overlay rect, .map-3 #overlay polygon, .map-3 #overlay path');
     var $categorySelects = $('.category-select');
