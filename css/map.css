@@ -40,6 +40,9 @@
   width: 100%;
   height: auto;
 }
+.map-slide.map-1 {
+  padding-top: 24px;
+}
 #map .map-slide SVG {
   width: 100%;
   height: auto;
@@ -56,6 +59,12 @@
   -webkit-box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.3);
   box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.3);
 }
+#map .map-1 .desktopmap {
+  display: none;
+}
+#map .map-1 .mobilemap {
+  display: none;
+}
 #map .map-1 #Belarussian {
   cursor: pointer;
 }
@@ -64,6 +73,23 @@
   animation: pulse 2.5s infinite;
   -webkit-transform-origin: center center;
   opacity: 1;
+}
+#map .map-1 #clickableMapElement {
+  cursor: pointer;
+}
+#map .map-1 #clickableMapElement > #clickableMapElementChild {
+  -webkit-animation: pulse 2s infinite;
+  animation: pulse 2s infinite;
+  -webkit-transform-origin: center center;
+  opacity: 1;
+  cursor: pointer;
+}
+#map .map-2 #clickableMapElement > #clickableMapElementChild {
+  -webkit-animation: pulse 2s infinite;
+  animation: pulse 2s infinite;
+  -webkit-transform-origin: center center;
+  opacity: 1;
+  cursor: pointer;
 }
 #map .map-1 tspan {
   white-space: pre;
@@ -379,22 +405,40 @@
 }
 @-webkit-keyframes pulse {
   0% {
-    stroke-width: 2;
-    stroke: rgba(122, 139, 68, 0.3);
+    fill: #83009F;
   }
+  /*33% {*/
+  /*  fill: #A4008D;*/
+  /*}*/
+  /*66% {*/
+  /*  fill: #C5007C;*/
+  /*}*/
   100% {
-    stroke-width: 100;
-    stroke: rgba(122, 139, 68, 0);
+    fill: #e6006a;
   }
 }
 @keyframes pulse {
   0% {
-    stroke-width: 2;
-    stroke: rgba(122, 139, 68, 0.3);
+    fill: #83009F;
   }
+  /*33% {*/
+  /*  fill: #A4008D;*/
+  /*}*/
+  /*66% {*/
+  /*  fill: #C5007C;*/
+  /*}*/
   100% {
-    stroke-width: 100;
-    stroke: rgba(122, 139, 68, 0);
+    fill: #e6006a !important;
+  }
+}
+@media (min-width: 768px) {
+  #map .map-1 .desktopmap {
+    display: block;
+  }
+}
+@media (max-width: 767px) {
+  #map .map-1 .mobilemap {
+    display: block;
   }
 }
 @media (max-width: 1500px) {
@@ -455,7 +499,11 @@
     background-color: #fff;
     border-bottom: 1px solid #cecece;
   }
+  #map .map .map-navigation LI:hover {
+    color: #e6006a;
+  }
   #map .map-navigation > li.active {
     background: #e6006a;
+    color: #fff !important;
   }
 }
