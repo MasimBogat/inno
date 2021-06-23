@@ -490,9 +490,9 @@ MAIN .section#about-us .member-list {
 MAIN .section#about-us .member-list .member,
 MAIN .section#innoprom .member-list .member {
     -webkit-box-flex: 1;
-    -ms-flex: 1 0 33.333333%;
-    flex: 1 0 33.333333%;
-    max-width: 33.333333%;
+    -ms-flex: 1 0 50%;
+    flex: 1 0 50%;
+    max-width: 50%;
     padding: 22px 14px;
     background-color: #eaeaea;
     display: -webkit-box;
