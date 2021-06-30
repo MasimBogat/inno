@@ -211,15 +211,12 @@ $APPLICATION->SetTitle("National exposition of the Republic of Belarus at the in
                         <div class="w60">
                             <div class="tab-contents">
                                 <div class="tab-content _is-active" id="auto">
-                                    <span class="tab-decscription">
-                                        Производители машиностроительной продукции
-                                    </span>
                                     <ul class="org-items">
                                         <li class="org-item" data-id="bmz">
                                             <img src="../images/logo/bmz.png" title="Byelorussian Steel Works" alt="Byelorussian Steel Works">
                                             <span>Byelorussian Steel Works</span>
                                         </li>
-                                        <li class="org-item" data-id="INTEGRAL">
+                                        <li class="org-item" data-id="integral">
                                             <img src="../images/logo/integral.png" title="INTEGRAL" alt="INTEGRAL">
                                             <span>INTEGRAL</span>
                                         </li>
@@ -239,9 +236,6 @@ $APPLICATION->SetTitle("National exposition of the Republic of Belarus at the in
                                     </ul>
                                 </div>
                                 <div class="tab-content" id="machine">
-                                    <span class="tab-decscription">
-                                        Производители станков
-                                    </span>
                                     <ul class="org-items">
                                         <li class="org-item" data-id="gomel">
                                             <img src="../images/logo/gomelstan.png" title="Gomel machine tool units plant" alt="Gomel machine tool units plant">
@@ -262,9 +256,6 @@ $APPLICATION->SetTitle("National exposition of the Republic of Belarus at the in
                                     </ul>
                                 </div>
                                 <div class="tab-content" id="science">
-                                    <span class="tab-decscription">
-                                       Научные организации и предприятия
-                                    </span>
                                     <ul class="org-items">
 										<li class="org-item" data-id="gknt">
                                             <img src="../images/logo/gknt.png" title="State Committee on Science and Technology of the Republic of Belarus" alt="State Committee on Science and Technology of the Republic of Belarus">
