@@ -84,7 +84,7 @@ $APPLICATION->SetTitle("National exposition of the Republic of Belarus at the in
                         </ul>
                     </div>
                     <div class="banner-logos w30">
-                        <img src="../images/logo/innoprom.svg" alt="ИННОПРОМ">
+                        <img src="../images/logo/innoprom.svg" alt="INNOPROM">
                         <img src="../images/logo/madeinbel.svg" alt="Made in Belarus">
                         <img src="../images/logo/hybrid.png" alt="Belarus Pavilion">
                     </div>
@@ -149,13 +149,13 @@ $APPLICATION->SetTitle("National exposition of the Republic of Belarus at the in
                                 <div class="position"><p>Minister of Industry of the Republic of Belarus </p></div>
                             </div>
                         </div>
-                        <div class="member">
+                        <!-- <div class="member">
                             <div class="photo"><img src="../images/person-main/ulahovich.jpg" alt=""></div>
                             <div class="info">
                                 <div class="name"><h4>Vladimir Ulakhovich</h4></div>
                                 <div class="position"><p>Chairman of the Belarusian Chamber of Commerce and Industry </p></div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                    <div class="text-center">
                        <p>The National Exposition of the Republic of Belarus is attended by 40 companies exporting a number of industries: machine building, machine tools, science and education</p>
@@ -33564,39 +33564,39 @@ $APPLICATION->SetTitle("National exposition of the Republic of Belarus at the in
                                 <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                                     <g id="map_3-copy" transform="translate(0.000000, 1.000000)">
                                         <!-- <rect id="Rectangle-3" fill="#403937" x="0" y="1" width="1419" height="1500"></rect> -->
-                                        <image id="4.effectsResult" xlink:href="images/render/pav-viewup.png">
+                                        <image id="4.effectsResult" xlink:href="../images/render/pav-viewup.png">
                                             <rect id="Rectangle-2" fill="#FFFFFF" x="791" y="154" width="225" height="230"></rect>
-                                            <image id="belgospischeprom" x="803" y="194" width="202" height="142" xlink:href="images/logo/belgospischeprom.png"></image>
+                                            <image id="belgospischeprom" x="803" y="194" width="202" height="142" xlink:href="../images/logo/belgospischeprom.png"></image>
                                             <rect id="Rectangle-2" fill="#FFFFFF" x="63" y="395" width="196" height="199"></rect>
-                                            <image id="vitba" x="77" y="414" width="169" height="169" xlink:href="images/logo/vitba.png"></image>
+                                            <image id="vitba" x="77" y="414" width="169" height="169" xlink:href="../images/logo/vitba.png"></image>
                                             <rect id="Rectangle-2" fill="#FFFFFF" x="0" y="0" width="209" height="199"></rect>
-                                            <image id="belakt" x="14" y="52" width="182" height="89" xlink:href="images/logo/belakt.png"></image>
+                                            <image id="belakt" x="14" y="52" width="182" height="89" xlink:href="../images/logo/belakt.png"></image>
 										</g>
 										<g id="logos">
 											<rect id="pic" x="132" y="32" width="70" height="58"></rect>
-											<image id="pic" x="133" y="32" width="70" height="58" xlink:href="images/logo/pic-logo.png"></image>
+											<image id="pic" x="133" y="32" width="70" height="58" xlink:href="../images/logo/pic-logo.png"></image>
 											<rect id="mogilev" x="205" y="32" width="60" height="58"></rect>
-											<image id="mogilev" x="206" y="32" width="60" height="58" xlink:href="images/logo/mogilev.svg"></image>
+											<image id="mogilev" x="206" y="32" width="60" height="58" xlink:href="../images/logo/mogilev.svg"></image>
 											<rect id="autocomponent" x="270" y="32" width="195" height="57"/>
-											<image id="autocomponent" x="270" y="32" width="195" height="57" xlink:href="images/logo/autocomponent.png"></image>
+											<image id="autocomponent" x="270" y="32" width="195" height="57" xlink:href="../images/logo/autocomponent.png"></image>
 											<rect id="mpz" x="472" y="32" width="79" height="55"/>
-											<image id="mpz" x="472" y="32" width="79" height="55" xlink:href="images/logo/mpz.png"></image>
+											<image id="mpz" x="472" y="32" width="79" height="55" xlink:href="../images/logo/mpz.png"></image>
 											<rect id="bmz" x="556" y="32" width="63" height="55"/>
-											<image id="bmz" x="556" y="32" width="63" height="55" xlink:href="images/logo/bmz.png"></image>
+											<image id="bmz" x="556" y="32" width="63" height="55" xlink:href="../images/logo/bmz.png"></image>
 											<rect id="mmz" x="637" y="33" width="92" height="84"/>
-											<image id="mmz" x="637" y="33" width="92" height="84" xlink:href="images/logo/mmz.png"></image>
+											<image id="mmz" x="637" y="33" width="92" height="84" xlink:href="../images/logo/mmz.png"></image>
 											<rect id="mzor" x="129" y="97" width="74" height="42"/>
-											<image id="mzor" x="129" y="97" width="74" height="42" xlink:href="images/logo/mzor.png"></image>
+											<image id="mzor" x="129" y="97" width="74" height="42" xlink:href="../images/logo/mzor.png"></image>
 											<rect id="stankogomel" x="129" y="141" width="73" height="44"/>
-											<image id="stankogomel" x="129" y="141" width="73" height="44" xlink:href="images/logo/stankogomel.png"></image>
+											<image id="stankogomel" x="129" y="141" width="73" height="44" xlink:href="../images/logo/stankogomel.png"></image>
 											<rect id="integral" x="129" y="225" width="72" height="90"/>
-											<image id="integral" x="129" y="225" width="72" height="90" xlink:href="images/logo/integral.png"></image>
+											<image id="integral" x="129" y="225" width="72" height="90" xlink:href="../images/logo/integral.png"></image>
 											<rect id="gomel" x="130" y="317" width="71" height="47"/>
-											<image id="gomel" x="130" y="317" width="71" height="47" xlink:href="images/logo/gomelstan.png"></image>
+											<image id="gomel" x="130" y="317" width="71" height="47" xlink:href="../images/logo/gomelstan.png"></image>
 											<rect id="nan" x="133" y="368" width="280" height="167"/>
-											<image id="nan" x="133" y="368" width="280" height="167" xlink:href="images/logo/nan.svg"></image>
+											<image id="nan" x="133" y="368" width="280" height="167" xlink:href="../images/logo/nan.svg"></image>
 											<rect id="gknt" x="406" y="368" width="324" height="167"/>
-											<image id="gknt" x="406" y="368" width="324" height="100" xlink:href="images/logo/gknt.png"></image>
+											<image id="gknt" x="406" y="368" width="324" height="100" xlink:href="../images/logo/gknt.png"></image>
 										</g>
 										<g id="overlay">
                                             <rect id="pic" class="overlay-milk overlay-inactive" x="132" y="32" width="72" height="58" category="meat"></rect>
@@ -33740,7 +33740,7 @@ $APPLICATION->SetTitle("National exposition of the Republic of Belarus at the in
 									<li><a>Project Manager</a></li>
 									<li><a href="mailto:dl@belinterexpo.by">dl@belinterexpo.by</a></li>
 									<li><a href="tel:+375291503226">+375 (29) 150-32-26</a></li>
-									<li id="c_tg"><a href="tg://resolve?domain=@@darialokhman" target="_blank">TG</a></li>
+									<li id="c_tg"><a href="tg://resolve?domain=@darialokhman" target="_blank">TG</a></li>
 									<li id="c_wapp"><a href="whatsapp://send?phone=+375291503226" target="_blank">WhatsApp</a></li>
 									<li id="c_wechat"><a href="weixin://dl/chat?375291503226" target="_blank">WeChat</a></li>
 									<li id="c_viber"><a href="viber://chat?number=%2B375291503226" target="_blank">Viber</a></li>
@@ -33755,14 +33755,14 @@ $APPLICATION->SetTitle("National exposition of the Republic of Belarus at the in
 									<li><a>Chief of Exhibitions Department</a></li>
 									<li><a href="mailto:katerina@belinterexpo.by">katerina@belinterexpo.by</a></li>
 									<li><a href="tel:+375445091208">+375 (44) 509-12-08</a></li>
-									<li id="c_tg"><a href="tg://resolve?domain=@annaprineslik" target="_blank">TG</a></li>
+									<li id="c_tg"><a href="tg://resolve?domain=@katerina_suprun90" target="_blank">TG</a></li>
 									<li id="c_wapp"><a href="whatsapp://send?phone=375445091208" target="_blank">WhatsApp</a></li>
 									<li id="c_wechat"><a href="https://msngr.link/wc/375445091208" target="_blank">WeChat</a></li>
 									<li id="c_viber"><a href="viber://chat?number=%2B375445091208" target="_blank">Viber</a></li>
 								</ul>
 							</div>
 						</div>
-						<div class="member w30">
+						<!-- <div class="member w30">
 							<div class="member-photo"><img src="../images/person-main/photo-director.jpg"></div>
 							<div class="member-name"><span>Eugeniy Vvedenskiy</span></div>
 							<div class="member-contacts">
@@ -33776,7 +33776,7 @@ $APPLICATION->SetTitle("National exposition of the Republic of Belarus at the in
 									<li id="c_viber"><a href="viber://chat?number=%2B375447268087" target="_blank">Viber</a></li>
 								</ul>
 							</div>
-						</div>
+						</div> -->
 					</div>
 				</div>
 			</div>

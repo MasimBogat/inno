@@ -5,6 +5,13 @@ $APPLICATION->SetPageProperty("title", "Национальная экспози�
 $APPLICATION->SetPageProperty("image", "images/logo/belaruspav.png");
 $APPLICATION->SetTitle("Национальная экспозиция Республики Беларусь на международной промышленной выставке «ИННОПРОМ»");
 ?><html lang="ru">
+    <head>
+    		<meta charset="UTF-8">    
+		<meta name="description" content="Национальная экспозиция Республики Беларусь на международной промышленной выставке «ИННОПРОМ»">
+		<title>Национальная экспозиция Республики Беларусь на международной промышленной выставке «ИННОПРОМ»</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="keywords" content="">
+</head>
 <body>
 
     <div class="hide-links">
@@ -133,13 +140,13 @@ $APPLICATION->SetTitle("Национальная экспозиция Респу
                                 <div class="position"><p>Министр промышленности Республики Беларусь </p></div>
                             </div>
                         </div>
-                        <div class="member">
+                        <!-- <div class="member">
                             <div class="photo"><img src="images/person-main/ulahovich.jpg" alt=""></div>
                             <div class="info">
                                 <div class="name"><h4>Владимир Евгеньевич Улахович</h4></div>
                                 <div class="position"><p>Председатель Белорусской торгово-промышленной палаты</p></div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                    <div class="text-center">
                        <p>В Национальной экспозиции Республики Беларусь принимают участие 40 компаний-экспортеров ряда отраслей: машиностроение, станкостроение, наука и образование</p>
@@ -33592,7 +33599,7 @@ $APPLICATION->SetTitle("Национальная экспозиция Респу
 											<rect id="stankogomel" class="overlay-milk overlay-inactive" x="129" y="141" width="73" height="44" category="meat"/>
 											<rect id="integral" class="overlay-milk overlay-inactive" x="129" y="225" width="72" height="90" category="milk"/>
 											<rect id="gomel" class="overlay-milk overlay-inactive" x="130" y="317" width="71" height="47" category="meat"/>
-											<path id="nan" class="overlay-milk overlay-inactive" d="M129,368H405V532H129V368ZM398,529h8v6h-8v-6Z" category="chicken-eggs"/>
+											<rect id="nan" class="overlay-milk overlay-inactive" x="132" y="368" width="274" height="167" category="chicken-eggs"/>
 											<rect id="gknt" class="overlay-milk overlay-inactive" x="406" y="368" width="324" height="167" category="chicken-eggs"/>
                                         </g>
 									</g> 
@@ -33726,7 +33733,7 @@ $APPLICATION->SetTitle("Национальная экспозиция Респу
 									<li><a>Менеджер проекта</a></li>
 									<li><a href="mailto:dl@belinterexpo.by">dl@belinterexpo.by</a></li>
 									<li><a href="tel:+375291503226">+375 (29) 150-32-26</a></li>
-									<li id="c_tg"><a href="tg://resolve?domain=@@darialokhman" target="_blank">TG</a></li>
+									<li id="c_tg"><a href="tg://resolve?domain=@darialokhman" target="_blank">TG</a></li>
 									<li id="c_wapp"><a href="whatsapp://send?phone=+375291503226" target="_blank">WhatsApp</a></li>
 									<li id="c_wechat"><a href="weixin://dl/chat?375291503226" target="_blank">WeChat</a></li>
 									<li id="c_viber"><a href="viber://chat?number=%2B375291503226" target="_blank">Viber</a></li>
@@ -33741,14 +33748,14 @@ $APPLICATION->SetTitle("Национальная экспозиция Респу
 									<li><a>Начальник управления выставок</a></li>
 									<li><a href="mailto:katerina@belinterexpo.by">katerina@belinterexpo.by</a></li>
 									<li><a href="tel:+375445091208">+375 (44) 509-12-08</a></li>
-									<li id="c_tg"><a href="tg://resolve?domain=@annaprineslik" target="_blank">TG</a></li>
+									<li id="c_tg"><a href="tg://resolve?domain=@katerina_suprun90" target="_blank">TG</a></li>
 									<li id="c_wapp"><a href="whatsapp://send?phone=375445091208" target="_blank">WhatsApp</a></li>
 									<li id="c_wechat"><a href="https://msngr.link/wc/375445091208" target="_blank">WeChat</a></li>
 									<li id="c_viber"><a href="viber://chat?number=%2B375445091208" target="_blank">Viber</a></li>
 								</ul>
 							</div>
 						</div>
-						<div class="member w30">
+						<!-- <div class="member w30">
 							<div class="member-photo"><img src="images/person-main/photo-director.jpg"></div>
 							<div class="member-name"><span>Евгений Введенский</span></div>
 							<div class="member-contacts">
@@ -33762,7 +33769,7 @@ $APPLICATION->SetTitle("Национальная экспозиция Респу
 									<li id="c_viber"><a href="viber://chat?number=%2B375447268087" target="_blank">Viber</a></li>
 								</ul>
 							</div>
-						</div>
+						</div> -->
 					</div>
 				</div>
 			</div>
